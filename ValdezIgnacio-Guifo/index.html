@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guiFos</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src = "./scripts/scripts.js"></script>
+</head>
+<body onload="lanzadera()">
+    <header>
+        <p class="cabecera">¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803</p>
+    </header>
+    <div class="contenedor"> 
+        <nav>
+            <div>
+                <img class = "logo" src="./images/gifOF_logo.png" alt="logo_gifOS">
+            </div>
+            <div class="menu">
+                <button onclick="window.location.href='./mis_guifos.html'">Crear Guifos</button>  
+                <div class="desple">
+                    <button onclick="menuCambio(btnCambio, 'cambio')">Elegir tema
+                    </button>
+                    <img onclick="menuCambio(btnCambio, 'cambio')" class="flecha" src="./images/dropdown.svg" alt="flecha_abajo">       
+                    <div id=btnCambio class="cambioOculto">
+                        <a class="dia BotonMenuDespl" onclick="cambiarModoLight()"><span class="sub">S</span>ailor Day</a>
+                        <a class="noche BotonMenuDespl" onclick="cambiarModoDark()"><span class="sub">S</span>ailor Night </a>                    
+                    </div>
+                </div>  
+                <a class="misguifos" href="mis_guifos.html"> <span class="sub">M</span>is Guifos</a> 
+            </div>
+        </nav>
+        <section class="principal">
+            <div class="cuadro" >
+                <div class = "titulo">
+                    <h1>Buscar</h1>
+                </div>
+                <div class="ventana_search" id = "searching">
+                    <form id="search-form" class="search">
+                        <input id="search-input" class="campo" type="search" placeholder="Busca gifs, hashtags, temas, busca lo que quieras…"/>
+                            <button onclick="buscar()" type="button" id="submit"  class="boton_buscar">
+                                <img class="lupa" src="./images/lupa_inactive.svg" alt="lupa">Buscar
+                            </button>
+                    </form>
+                </div>    
+                    <div id="cuadro-inf" class="cuadro-oculto">                        
+                        <button class="boton-largo" onclick="busquedapal('kittens')">Kittens</button>
+                        <button class="boton-largo" onclick="busquedapal('puppies')">Puppies</button>
+                        <button class="boton-largo" onclick="busquedapal('unicornios')">Unicorns</button>
+                    </div>
+            </div>     
+        </section>
+        <section class="sugerencias">
+            <h2>Hoy te sugerimos:</h2>
+            <div class=" resulSug">
+                <div>
+                    <div class="barra">
+                        <p>#Avengers</p>
+                        <img src="./images/close.svg" alt="cruz_cierre">
+                    </div>
+                    <div id=jonh class="suger"></div>
+                    <button class="ver" onclick="busquedapal('avengers','Vengadores')">Ver más...</button>
+                </div>
+                <div>
+                    <div class="barra">
+                        <p>#SailormMercury</p>
+                        <img src="./images/close.svg" alt="cruz_cierre">
+                    </div>
+                    <div id="sailor" class="suger"></div>
+                    <button class="ver" onclick="busquedapal('sailor mercury','Sailor Mercury')">Ver más...</button>
+                </div>                
+                <div>
+                    <div class="barra">
+                        <p>#Starwars</p>
+                        <img src="./images/close.svg" alt="cruz_cierre">
+                    </div>
+                 <div id="five" class="suger"></div>  
+                 <button class="ver" onclick="busquedapal('Starwars','#Star-wars')">Ver más...</button> 
+                 
+                </div>                
+                <div>
+                    <div class="barra">
+                        <p>#Soccer</p>
+                        <img src="./images/close.svg" alt="cruz_cierre">
+                    </div>
+                 <div id="unicorn" class="suger"></div>   
+                 <button class="ver" onclick="busquedapal('soccer','Fútbol')">Ver más...</button>
+                 
+                </div>
+            </div>
+        </section>
+        <section class="tendencias" id="tendencias">
+            <h3>Tendencias:</h3>
+            <div id="results" class="results">
+            </div>
+        </section>
+    </div>
+</body>
+</html>

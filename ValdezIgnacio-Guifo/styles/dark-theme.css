@@ -1,0 +1,132 @@
+.dark {
+    background-color: #110038;
+}
+.dark .cambioVisible {  
+    background-color:#B4B4B4;
+    box-shadow: inset -2px -2px #8F8F8F , inset 2px 2px #FFFFFF;
+}
+.dark .cambioVisible .noche{
+    color: #FFFFFF;
+    background-color: #2E32FB ;
+    border:#33358F solid 1px ;
+    box-shadow: inset -1px -1px #E6DCE4 , inset 1px 1px #FFFFFF;
+}
+.dark .cambioVisible .dia{
+    color: #110038;
+    background-color: #CCCCCC ;
+    border:#808080 solid 1px ;
+    box-shadow: inset -1px -1px #B4B4B4 , inset 1px 1px #FFFFFF;
+}
+.dark nav button{
+    border: 1px solid #110038 ;
+    background-color:  #EE3EFE;      
+    box-shadow:inset -1px -1px #A72CB3 ,inset 1px 1px #FFFFFF;   
+}
+.dark nav button:hover, .dark .flecha:hover, .dark .boton_buscaract:hover, .dark .btn_comenzar:hover{
+    background-color: #DE16EA;
+}
+.dark .btn_cancelar:hover{
+    background-color:#ADACAC;
+}
+.dark .flecha{
+    border: 1px solid #110038 ;
+    background-color:  #EE3EFE;      
+    box-shadow:inset -1px -1px #A72CB3 ,inset 1px 1px #FFFFFF;   
+}
+.dark nav a{
+    color: #FFFFFF;
+}
+.dark .titulo , .dark .cabecera, .dark .barra{ 
+    background: linear-gradient( 90deg, #2E32FB, #EE3EFE );
+}
+.dark .cuadro {
+    background-color: #B4B4B4;
+    box-shadow: inset -2px -2px #8F8F8F, inset 2px 2px #FFFFFF;
+    border-right:  inset -2px -2px solid #8F8F8F;    
+}
+.dark .boton_buscar {
+    width: 102px;
+    height: 36px;       
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px -50px 20px 0;
+    background-color: #B4B4B4;
+    border: 1px #808080 solid;
+    box-shadow: inset -1px -1px #B4B4B4, inset 1px 1px #FFFFFF;
+    font-family: 'Chakra Petch';
+    font-size: 16px;
+    text-decoration: none;
+    color: #8F8F8F; 
+}
+.dark .cuadro_crear{
+    background-color:#B4B4B4 ;
+}
+.dark .btn_crear{
+  color: #FFFFFF;
+}
+
+
+.dark .btn_comenzar{
+    background-color: #EE3EFE  ;
+}
+.dark .btn_cancelar{
+    background-color: #B4B4B4;
+}
+.dark .boton_buscaract, .dark .upload-success-ready, .dark .captura {
+    background-color: #EE3EFE;
+    box-shadow: inset -1px -1px #A72CB3, inset 1px 1px #FFFFFF;
+    border:#110038 solid 1px;
+    color: #FFFFFF;
+}
+.dark .captura .dark .btncamarita .dark img{
+    background-color: #EE3EFE;
+    box-shadow: inset -1px -1px #A72CB3, inset 1px 1px #FFFFFF;
+    border:#110038 solid 1px;
+}
+
+
+
+.dark .cuadro-inferior{
+    
+    background-color: #B4B4B4;
+    box-shadow: inset -2px -2px #8F8F8F, inset 2px 2px #FFFFFF;
+    border-right:  inset -2px -2px solid #8F8F8F; 
+}
+.dark .cuadro-visible{
+    display: block;
+    background-color: #E6E6E6;
+    box-shadow: inset -2px -2px #B4B4B4, inset 2px 2px #FFFFFF;
+    border-right:  inset -2px -2px solid #B4B4B4;
+    height: 160px;
+    background-color:#B4B4B4;
+    visibility: visible;
+    z-index: 5;
+    position: relative;
+}
+.dark .cuadro-oculto{
+    position: absolute;
+    visibility: hidden;
+    z-index: 5;
+}
+.dark .boton-largo{
+    width: 960px;
+    height: 34px;
+    margin-top: 14px;
+    margin-left: 11px;
+    font-size: 16px;
+    font-family: 'Chakra Petch';
+    text-align: left;
+    color: #110038;
+    background-color: #CCCCCC;
+    box-shadow: inset -1px -1px #B4B4B4, inset 1px 1px #FFFFFF;
+    border-color: 1px solid #808080;
+}
+.dark .boton-largo{                                       /*  /////REVISAR/////////*/
+    background-color: #A0A0A0;
+    border: #110038 1px dotted;
+    box-shadow: inset -1px -1px #B4B4B4, inset 1px 1px #FFFFFF;
+}
+
+.upload-success{
+
+}

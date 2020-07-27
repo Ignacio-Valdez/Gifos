@@ -1,0 +1,588 @@
+@import url(dark-theme.css);
+
+html {
+    font-family: 'Chakra Petch', sans-serif;
+    }
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: #FAE9F5;
+}
+.contenedor {
+    margin: 35px 140px 0 100px; 
+}
+.cabecera{
+    color: #FFFFFF;  
+    box-shadow:  inset 2px 2px #FFFFFF;
+    background: linear-gradient( 90deg, #4180F6, #F7C9F3 );
+    border-right:  inset 2px  #B4B4B4;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin:0;
+}
+                                    /*Crear guifos.HTML*/
+.back{
+    display: flex;
+}
+.arrow{
+margin-left: -40px;
+margin-top: 20px;
+}
+.misguifos{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #110038;
+}
+.cuadro_crear {
+    width: 684px;
+    height: 386px;
+    margin: 78px auto  ;
+    background-color: #E6E6E6;
+    box-shadow: inset -2px -2px #B4B4B4, inset 2px 2px #FFFFFF;
+    border-right:  inset -2px -2px solid #B4B4B4;
+}
+.subtitulo{   
+    font-weight: bold;
+    font-size: 16px;
+    display: inline;
+    align-items: flex-end;
+}
+.monitor{
+    width: 32px;
+    height: 32px;
+    margin: 0 16px -55px -48px;
+}
+.cuadro_parrafo{
+    width: 530px;
+    color: #110038;
+    margin: 30px 93px 100px 73px;
+    font-size: 14px;
+    margin-top: -10px;
+}
+.cuadro_parrafo span{
+    font-weight: bold;
+}
+.cursiva{
+    font-style: italic;
+}
+.btn_crear{
+    width: 144px;
+    height: 36px;
+    font-family:'Chakra Petch', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn_comenzar{
+    background-color: #F7C9F3 ;
+    margin-right: -40px;
+}
+.btn_cancelar{
+    background-color: #FFF4FD;
+    margin-right: 20px;
+} 
+.opcion_crear{
+    float: right;
+    display: flex;
+}
+nav button:hover,.flecha:hover, .boton_buscaract:hover, .btn_comenzar:hover{
+    background-color: #E7ACCA;
+}
+.btn_cancelar:hover{
+    background-color:#EDEBEB;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+} 
+.desple{
+    display: flex;
+    align-items: center;
+}
+.botonMenuDespl {
+    margin-left: 5px;
+    width: 120px;
+}
+.cambioVisible {
+    visibility: "visible" ;
+    margin: 69px -70px 0px 15px;
+    position: absolute;  
+    z-index: 5;
+    background-color:#E6E6E6;
+    box-shadow: inset -2px -2px #B4B4B4, inset 2px 2px #FFFFFF;
+    width: 170px;
+    height: 102px;
+}
+.cambioOculto {
+    visibility: "hidden"; 
+    margin-top: -190px;
+    position: absolute; 
+    z-index: 5;
+}
+.cambioVisible a{ 
+    display: block; 
+    padding: 10px;
+    margin: 5px;
+    text-align: left;
+    background-color: #E6E6E6; 
+    border: #CCA6C9 solid 1px;
+    box-shadow: inset -1px -1px #E6DCE4, inset 1px 1px #FFFFFF;
+}
+.cambioVisible .noche{
+    color: #110038;
+    background-color: #F0F0F0 ;
+    border:#808080 solid 1px ;
+    box-shadow: inset -1px -1px #B4B4B4 , inset 1px 1px #FFFFFF;
+    cursor: pointer;
+}
+.cambioVisible .dia{
+    color: #110038;
+    background-color: #FFF4FD;
+    border:#CCA6C9  solid 1px ;
+    box-shadow: inset -1px -1px #E6DCE4 , inset 1px 1px #FFFFFF;
+    cursor: pointer;
+}
+.sub{
+    text-decoration: underline;
+}
+.flecha{
+    border: solid 1px;
+    padding: 14px 12px;
+    margin: 10px 18px 10px -25px;
+    cursor: pointer;
+    border: 1px solid #110038 ;
+    background-color:  #F7C9F3;      
+    box-shadow:inset -1px -1px #997D97 ,inset 1px 1px #FFFFFF;
+}
+.logo {
+    width: 102.6px;
+    height: 64px;
+}
+.menu{
+    display: inline-flex;
+}
+.lupa{
+    margin-right: 5px;
+}
+ .mis-guifos{
+     display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     align-items: center;
+     text-decoration: none;
+ }   
+.mis-guifos img{
+     margin: 5px;
+ }
+.menu button{
+    border: 1px solid #110038 ;
+    background-color:  #F7C9F3;      
+    box-shadow:inset -1px -1px #997D97 ,inset 1px 1px #FFFFFF;    
+    margin: 20px 15px;   
+    height: 36px;
+    cursor: pointer;
+    width: 144px;
+    font-size: 16px;
+    font-family: 'Chakra Petch';
+    color: #110038;
+}
+.mis_guifos{
+    display: flex;
+    text-decoration: none;
+}
+.principal { 
+    margin-top: 36px;
+    visibility: visible;
+}
+.titulo{ 
+    color: #FFFFFF;  
+    box-shadow:  inset 2px 2px #FFFFFF;
+    background: linear-gradient( 90deg, #4180F6, #F7C9F3 );
+    border-right:  inset 2px  #B4B4B4;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+h1 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.cuadro {
+    background-color: #E6E6E6;
+    box-shadow: inset -2px -2px #B4B4B4, inset 2px 2px #FFFFFF;
+    border-right:  inset -2px -2px solid #B4B4B4;
+    height: 100px;
+    display: block;
+}
+.ventana_search {
+    display: block;
+    align-items: center;
+    margin-left: 10px;
+    max-width: 1200px;
+}    
+.campo{
+    height: 48px;
+    width: 970px;
+    margin-right: 8px;
+    font-size: 22px;
+    padding-left: 16px;
+    border: 1px #979797 solid;
+    box-shadow: inset -2px -2px #E6E6E6, inset 2px 2px #000000;
+    margin-top: 12px;  
+}
+.search{
+    display: inline-block;
+    align-items: center;
+}
+.boton_buscar {
+    width: 102px;
+    height: 36px;       
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px -50px 20px 0;
+    background-color: #E6E6E6;
+    border: 1px #808080 solid;
+    box-shadow: inset -1px -1px #B4B4B4, inset 1px 1px #FFFFFF;
+    color:#B4B4B4;
+    font-family: 'Chakra Petch';
+    font-size: 16px; 
+}
+.boton_buscaract{
+    background-color: #F7C9F3;
+    border: 1px #110038 solid;
+    box-shadow: inset -1px -1px #997D97, inset 1px 1px #FFFFFF;
+    cursor: pointer;
+    width: 102px;
+    height: 36px;       
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px -50px 20px 0;
+    text-decoration: none;
+    font-family: 'Chakra Petch';
+    font-size: 16px;
+    text-decoration: none;
+    color: #110038; 
+}
+.search-input{
+    display: inline-flex;
+    justify-content: center;
+}
+.cuadro-visible{
+    display: block;
+    background-color: #E6E6E6;
+    box-shadow: inset -2px -2px #B4B4B4, inset 2px 2px #FFFFFF;
+    border-right:  inset -2px -2px solid #B4B4B4;
+    height: 160px;
+    background-color: #E6E6E6;
+    visibility: visible;
+    z-index: 5;
+    position: relative;
+}
+.cuadro-oculto{
+    position: absolute;
+    visibility: hidden;
+    z-index: 5;
+}
+.boton-largo{
+    width: 960px;
+    height: 34px;
+    margin-top: 14px;
+    margin-left: 11px;
+    width: 970px;
+    font-size: 16px;
+    font-family: 'Chakra Petch';
+    text-align: left;
+    color: #110038;
+    background-color: #F0F0F0;
+    box-shadow: inset -1px -1px #B4B4B4, inset 1px 1px #FFFFFF;
+    border-color: 1px solid #808080;
+}
+.boton-largo:hover{                                       
+    background-color: #CFCFCF;
+    border: #110038 1px dotted;
+    box-shadow: inset -1px -1px #B4B4B4, inset 1px 1px #FFFFFF;
+    border-color: 1px solid #808080;
+}
+  
+h2, h3, .mis_guifos{
+    font-size: 14px;
+    font-family: 'Chakra Petch';
+    color: #110038;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    height: 32px;
+    padding-left: 7px;
+    margin-top: 66px;
+    background-color: #FFFAFE;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px #E6DCE4, inset 2px 2px #80687D;
+    position: relative;
+    z-index: -10;
+}
+.results{
+   margin: 0 -7px;
+   }
+.results img{
+   margin: 7px;
+   height: 270px;
+   width: 266px;
+   display: inline-flex;
+}
+.resulSug{
+   display: flex;
+}
+.suger img{
+    display: flex;
+    width: 267px;
+    height: 267px; 
+    margin: 10px 10px 10px 0;
+    box-shadow: inset -1px -1px #B4B4B4, inset 1px 1px #FFFFFF;
+    border: 1px solid #808080;
+}
+.barra{
+    height: 24px;
+    width: 269px;
+    margin-left: -1px;
+    margin-bottom: -10px;
+    background: linear-gradient( 90deg, #4180F6, #F7C9F3 );
+    border: #110038 1px;
+    box-shadow: inset -1px -1px #B4B4B4, inset 1px 1px #FFFFFF;
+    border-color: 1px solid #808080;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.barra p{
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 3px;
+    font-weight: bold;
+}
+.barra img{
+    margin:0 3px;
+}
+.ver{
+    background-color: #4180F6;
+    border: 1px solid #E6BBE2 inset 1px #4C2F99  ;
+    box-shadow: inset -1px -1px #284F99 , inset 1px 1px #FFFFFF;
+    color: #FFFFFF;
+    font-size: 14px;
+    width: 81px;
+    height: 34px;
+    display: flex;
+    position: relative;
+    z-index: 15;
+    margin: -60px 0 0 7px;
+    border: transparent;
+    cursor: pointer;
+}
+.cuadro_video{
+    width: 685px;
+    height: 590px;
+    background-color: #E6E6E6;
+    box-shadow: inset -2px -2px #B4B4B4, inset 2px 2px #FFFFFF;
+    border-right:  inset -2px -2px solid #B4B4B4;
+    margin: auto;
+    position: relative; 
+}
+.vista_video{
+    display: none;
+}
+#vid2{
+   margin: -20px auto 3px;
+   display: flex;
+    width: 100%;
+    height: 90%;
+}
+.cuadro_video .barra{
+    width: 679px;
+    height: 23px;
+    position: relative;
+    z-index: 15;
+    padding-left: 7px;
+}
+.captura{
+    background-color: #F7C9F3;
+    box-shadow: inset -1px -1px #997D97 inset 1px 1px #FFFFFF;
+    border: 1px solid #110038;
+    width: 144px;
+    height: 35px;
+    padding-top: -20px;
+} 
+.btnCaptura button{
+    cursor: pointer;
+    position: relative;
+    z-index: 50;
+    top: -11px;
+}
+.btncamarita{
+    padding:  9px 8px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+    box-shadow: inset -1px -1px #997D97 inset 1px 1px #FFFFFF;
+    border: 1px solid #110038;
+    z-index: 10;
+}
+.btnCaptura .btncamarita{
+    background-color: #F7C9F3;
+    box-shadow: inset -1px -1px #997D97 inset 1px 1px #FFFFFF;
+   border: 1px solid #110038;   
+}
+.btnCaptura img{
+    margin-top: 10px;
+    margin-right: -5px;
+    background-color: #F7C9F3;
+    box-shadow: inset -1px -1px #997D97 inset 1px 1px #FFFFFF;
+    border-color: 1px solid #110038;
+}
+.btnCaptura{
+   display: inline-flex;
+   position: relative;
+    align-items: center;
+    display: none;
+    margin: 0px 5px 30px 120px;
+    width: 180px;
+}
+.inferior{
+    display:flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+.parar{
+    display: none;
+    background-color: #FF6161;
+    box-shadow: inset -1px -1px #993A3A  inset 1px 1px #FFFFFF;
+    border-color: 1px solid #110038;
+    width: 144px;
+    height: 38px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: -25px 10px 0 100px;
+    top: -3px;
+    cursor: pointer;
+}
+.btngrabando{
+    background-color: #FF6161;
+    box-shadow: inset -1px -1px #993A3A  inset 1px 1px #FFFFFF;
+    border-color: 1px solid #110038;
+    padding: 8px;
+    height: 16px;
+    margin: 0 -10px 0 110px;
+    position: relative;
+    right: 43px;
+    top:13px
+}
+.btngrabar{
+    display: inline-flex;
+    display: none;
+}
+.btngrabar img{
+    height: 18px;
+}
+#vid2{
+    display: flex;
+}
+.previa{
+    display: flex;
+    display: none;
+    align-items: flex-end;
+    margin: 13px 50px;
+}
+.creado{
+    display: none;
+}
+.gifBlock img{
+    display: flex;
+    margin: auto;
+}
+.pantalla{
+    display: block;
+    display: none;
+    width: 640px;
+    height: 520px;
+    margin-top: 12px;
+    margin-left: 17px;
+  }
+.fondo-blanco{
+    display: none;
+    background: #FFFFFF;
+    width: 650px;
+    height: 450px;
+    position: relative;
+    z-index: 1;
+    left: -17px;
+}
+.uploading-screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 130px;
+}
+#timeMsg{
+    color: #110038 64%;
+    font-size: 12px;
+    margin: 10px;
+}
+.cancelaup{
+    display:none;
+    width: 144px;
+    height: 36px;
+    font-family:'Chakra Petch', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    background-color: #FFF4FD;
+    margin-right: 20p;
+    right: -430px;
+    top: 30px;
+    z-index: 50;
+}
+.tituloSubida{
+    display: none;
+    color: #110038;
+    font-family:'Chakra Petch', sans-serif;
+    font-size: 16px;;
+    font-weight: bold;
+    position: relative;
+    top: -270px;
+    margin-left: 13px;
+}
+.vistaSubida{
+    display: block;
+    width: 365px;
+    height: 300px;
+    margin: 40px 20px;
+}
+.upload-success{
+    font-family:'Chakra Petch', sans-serif;
+    font-size: 16px;
+    background-color: #FFF4FD;
+    width: 256px;
+    height: 36px;
+    margin: 14px;
+    position: relative;
+    top: -270px;
+    cursor: pointer;
+}
+.upload-success-ready{
+    background-color: #F7C9F3;
+    box-shadow: inset -1px -1px #997D97 inset 1px 1px #FFFFFF;
+    border-color: 1px solid #110038;
+    width: 144px;
+    height: 36px;
+    position: relative;
+    top: -130px;
+    right: -90px;
+    cursor: pointer;
+}
+
